@@ -1,0 +1,91 @@
+.home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 100px);
+}
+
+.headerContainer {
+  width: auto;
+  margin-left: 20px;
+}
+
+.home .headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: lightyellow;
+  margin-bottom: 0.5rem;
+}
+
+.home .headerContainer p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
+  color: goldenrod;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.home .headerContainer button {
+  color: yellowgreen;
+  margin-top: 20px;
+  border: none;
+  border-radius: 90px; /* corrected property */
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home .headerContainer button:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .home .headerContainer {
+    margin-left: 0;
+    border-radius: 10px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+  }
+
+  .home .headerContainer h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    height: 30px;
+    margin: 15px 0px;
+    color: white;
+  }
+
+  .home .headerContainer p {
+    font-size: 30px;
+    color: white;
+  }
+
+  .home .headerContainer button {
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+  }
+}
+.service {
+  font-size: larger;
+}

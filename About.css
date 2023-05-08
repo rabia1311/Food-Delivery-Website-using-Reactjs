@@ -1,0 +1,26 @@
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h4 {
+  font-style: italic;
+  color: red;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+p {
+  color: black;
+  text-align: left;
+}
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.album {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
